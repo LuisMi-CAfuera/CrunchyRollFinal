@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crunchyroll</string>
+    <string name="acceder">Acceder</string>
+    <string name="direccion_de_email_o_usuario">Direccion de email o usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="has_olvidado_tu_contrase_a">¿HAS OLVIDADO TU CONTRASEÑA?</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="todo_tu_anime_favorito_todo_en_un_solo_n_lugar">Todo tu anime favorito.Todo en un solo \n lugar.</string>
+    <string name="o">o</string>
+    <string name="explorar_prueba_gratuita">Explorar prueba gratuita</string>
+    <string name="email_o_nombre_de_usuario">Email o nombre de usuario</string>
+    <string name="contrasea">Contraseña</string>
+    <string name="Usar">Al usar tu cuenta accedes a nuestros Términos y Politica de \n Privacidad y confirmas que tienes 16 años o mas </string>
+</resources>
