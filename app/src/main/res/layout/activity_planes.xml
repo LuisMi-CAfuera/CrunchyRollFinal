@@ -122,7 +122,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="left"
-                android:text="@string/sin_anuncios" />
+                android:text="@string/sin_anuncios"
+                app:drawableLeftCompat="@drawable/check"
+                tools:ignore="RtlHardcoded" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -132,7 +134,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/acceso_ilimitado_al_catalogo_de_crunchyroll"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/check" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -142,7 +145,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/nuevos"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/check" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -152,7 +156,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/uno"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/check" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -162,7 +167,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/pelis"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/cruz3" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -172,6 +178,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/mensual"
+                android:drawableLeft="@drawable/cruz3"
                 tools:ignore="RtlHardcoded" />
         </LinearLayout>
 
