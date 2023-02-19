@@ -19,5 +19,14 @@
     <string name="ya_tienes_una_cuenta_acceder">¿Ya tienes una cuenta? Acceder</string>
     <string name="crunchyroll_premium">Crunchyroll Premium</string>
     <string name="prueba_gratuita_de_14_dias">Prueba gratuita de 14 dias</string>
+    <string name="Textaco">Tu suscripcion, la cual comenzara con un periodo de prueba gratuita si cumples los requisitos, comenzara cuando pinches sobre SUSCRIBIETE CON UNA PRUEBA GRATUITA. Si cumples los requisitos para una prueba gratuita, se te cargaran 4,99€ al mes mas los impuestos correspondientes cuando la prueba gratuita finalice; de lo contrario, el cargo se realizara de inmediato al da comienzo a la suscipcion.Tu suscripcion se renovara de foma automatica si no la cancelas via google play con al menos 24 horas de antelacion antes del final del periodo en curso.Al comprar una suscripcion accedes a nuestra Politica de privacidad y Terminos.</string>
+    <string name="fan">FAN</string>
+    <string name="_4_99_mes">4,99€/mes</string>
+    <string name="sin_anuncios">Sin anuncios</string>
+    <string name="acceso_ilimitado_al_catalogo_de_crunchyroll">Acceso ilimitado al catalogo de Crunchyroll</string>
+    <string name="nuevos">Nuevos episodios una hora despues de Japon</string>
+    <string name="uno">En un dispositivo a la vez</string>
+    <string name="pelis">Episodios y peliculas para verlos sin conexion</string>
+    <string name="mensual">16% de descuento en Plan Mensual\n(cargo anual)</string>
 
 </resources>

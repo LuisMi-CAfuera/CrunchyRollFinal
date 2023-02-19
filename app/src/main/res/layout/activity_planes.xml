@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="408dp"
+        android:layout_width="390dp"
         android:layout_height="66dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,6 +55,157 @@
             app:layout_constraintStart_toEndOf="@+id/cruz3"
             app:layout_constraintTop_toBottomOf="@+id/Premiun"
             app:layout_constraintVertical_bias="0.111" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="274dp"
+        android:layout_height="421dp"
+        android:background="@drawable/cuadrado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="0.051">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            app:srcCompat="@drawable/cruz_blanca_masgrande" />
+
+        <TextView
+            android:id="@+id/FAN"
+            style="@style/Premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:layout_constraintVertical_bias="0.028" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_99_mes"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/FAN"
+            app:layout_constraintVertical_bias="0.035" />
+
+        <LinearLayout
+            android:layout_width="259dp"
+            android:layout_height="168dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+            <TextView
+                android:id="@+id/textView15"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/sin_anuncios" />
+
+            <TextView
+                android:id="@+id/textView16"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/acceso_ilimitado_al_catalogo_de_crunchyroll"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView17"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/nuevos"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView18"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/uno"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView19"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/pelis"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView20"
+                style="@style/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="@string/mensual"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Textaco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <Button
+        android:id="@+id/Explorar"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/amarillo"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/explorar_prueba_gratuita"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:ignore="RtlHardcoded" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
