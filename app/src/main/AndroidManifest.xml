@@ -12,6 +12,15 @@
         android:theme="@style/Theme.CrunchyRoll"
         tools:targetApi="31">
         <activity
+            android:name=".Principal"
+            android:exported="false" />
+        <activity
+            android:name=".Planes"
+            android:exported="false" />
+        <activity
+            android:name=".registrar"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
