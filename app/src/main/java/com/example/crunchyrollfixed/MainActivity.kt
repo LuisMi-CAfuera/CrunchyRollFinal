@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        binding.imageView.setImageResource(R.drawable.crunchyroll)
         binding.Acceder.setOnClickListener {
             val intent = Intent(this@MainActivity, login::class.java)
             startActivity(intent)

@@ -138,7 +138,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/yatienes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Olvidado"
@@ -158,8 +158,8 @@
             android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toEndOf="@+id/yatienes"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.513" />
 
@@ -171,7 +171,7 @@
             android:textColor="@color/login_button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.105"
             app:layout_constraintStart_toEndOf="@+id/separacion"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.513" />

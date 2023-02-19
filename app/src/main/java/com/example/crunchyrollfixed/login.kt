@@ -19,6 +19,8 @@ class login : AppCompatActivity() {
         setContentView(binding.root)
         val spannable = SpannableString("Al usar tu cuenta accedes a nuestros Términos y Políticas de Privacidad y confirmas que tienes 16 años o más.")
 
+        binding.logo1.setImageResource(R.drawable.crunchyroll)
+        binding.cruz1.setImageResource(R.drawable.cruz_balca)
         binding.acceder.setOnClickListener{
             val intent = Intent(this@login, Principal::class.java)
             startActivity(intent)
