@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditText">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:backgroundTint">@color/gris</item>
+        <item name="android:textCursorDrawable">@drawable/edit</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

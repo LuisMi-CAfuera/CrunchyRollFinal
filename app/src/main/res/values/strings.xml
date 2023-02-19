@@ -10,6 +10,8 @@
     <string name="o">o</string>
     <string name="explorar_prueba_gratuita">Explorar prueba gratuita</string>
     <string name="email_o_nombre_de_usuario">Email o nombre de usuario</string>
-    <string name="contrasea">Contraseña</string>
-    <string name="Usar">Al usar tu cuenta accedes a nuestros Términos y Politica de \n Privacidad y confirmas que tienes 16 años o mas </string>
+    <string name="contraseña">Contraseña</string>
+    <string name="TerminosYPoliticas">Al usar tu cuenta accedes a nuestros Términos y Políticas de Privacidad y confirmas que tienes 16 años o más.</string>
+    <string name="Olvidado">¿Has olvidado la contraseña?</string>
+    <string name="separacion">   |   </string>
 </resources>
