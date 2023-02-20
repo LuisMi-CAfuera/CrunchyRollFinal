@@ -200,6 +200,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="left"
+                android:textColor="@color/gris"
                 android:text="@string/pelis"
                 app:drawableLeftCompat="@drawable/cruz3"
                 tools:ignore="RtlHardcoded" />
@@ -210,9 +211,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:drawableLeft="@drawable/cruz3"
+                android:textColor="@color/gris"
                 android:gravity="left"
                 android:text="@string/mensual"
+                android:drawableLeft="@drawable/cruz3"
                 tools:ignore="RtlHardcoded" />
         </LinearLayout>
 
