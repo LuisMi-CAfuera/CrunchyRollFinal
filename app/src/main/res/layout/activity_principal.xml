@@ -48,19 +48,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4">
-
-        <ScrollView
-            android:layout_width="408dp"
-            android:layout_height="405dp"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="250dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" />
-        </ScrollView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
