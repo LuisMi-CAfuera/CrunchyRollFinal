@@ -29,5 +29,9 @@
     <string name="pelis">Episodios y peliculas para verlos sin conexion</string>
     <string name="mensual">16% de descuento en Plan Mensual\n(cargo anual)</string>
     <string name="sus">Suscribete con una prueba gratuita</string>
+    <string name="mega_fan">MEGA FAN</string>
+    <string name="mega_fan_anual">MEGA FAN ANUAL</string>
+    <string name="_6_49_mes">6,49/mes</string>
+    <string name="_64_99_a_o">64,99/año</string>
 
 </resources>

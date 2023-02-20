@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@drawable/fondo2"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -46,13 +46,18 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView"
             app:layout_constraintVertical_bias="0.12" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/Explorar"
             android:layout_width="330dp"
             android:layout_height="48dp"
             android:backgroundTint="@color/amarillo"
             android:fontFamily="@font/lato_bold"
             android:text="@string/explorar_prueba_gratuita"
+            app:icon="@drawable/corona"
+            app:iconGravity="textStart"
+            app:iconPadding="10dp"
+            app:iconSize="25dp"
+            app:iconTint="@color/black"
             android:textColor="@color/black"
             android:textSize="15sp"
             app:cornerRadius="0dp"
