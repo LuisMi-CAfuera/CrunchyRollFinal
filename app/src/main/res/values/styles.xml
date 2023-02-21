@@ -22,8 +22,8 @@
 
     <style name="Navigation">
          <item name="android:background">@color/grisnav</item>
-         <item name="itemIconTint">@color/white</item>
-         <item name="itemTextColor">@color/white</item>
+         <item name="itemIconTint">@color/cambio</item>
+         <item name="itemTextColor">@color/cambio</item>
     </style>
 
 

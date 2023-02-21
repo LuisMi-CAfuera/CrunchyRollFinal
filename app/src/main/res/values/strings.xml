@@ -41,5 +41,7 @@
     <string name="cuenta">Cuenta</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vinland_saga">VINLAND SAGA</string>
+    <string name="sinapsis">Cuando Thors, un gran guerrero vikingo muere asesinado en batalla a manos de Askeladd, un mercenario,su hijo,Thorfinn,jura vengarse.</string>
 
 </resources>
