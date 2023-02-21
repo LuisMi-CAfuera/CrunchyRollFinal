@@ -1,8 +1,10 @@
 package com.example.crunchyrollfixed
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.crunchyrollfixed.databinding.ActivityPrincipalBinding
+import com.google.android.material.bottomnavigation.BottomNavigationItemView
 
 class Principal : AppCompatActivity() {
     private lateinit var binding: ActivityPrincipalBinding
@@ -13,10 +15,15 @@ class Principal : AppCompatActivity() {
     var fragmento3 = tercer_fragment_explorar()
     var fragmento4 = cuarto_fragment_simulcast()
     var fragmento5 = quinto_fragment_cuenta()
+    @SuppressLint("ResourceAsColor", "RestrictedApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityPrincipalBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        supportFragmentManager.beginTransaction().replace(R.id.frameLayout1, fragmento1).commit()
+
+        //si tiene focus en el primer fragmento se cambia el color del icono
+
 
         binding.bottomNavigation1.setOnItemSelectedListener {
             when(it.itemId){
