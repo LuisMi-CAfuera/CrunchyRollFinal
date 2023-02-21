@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="412dp"
-        android:layout_height="523dp"
+        android:layout_width="417dp"
+        android:layout_height="519dp"
         android:background="@drawable/fondodifuminado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,14 +53,14 @@
             android:backgroundTint="@color/amarillo"
             android:fontFamily="@font/lato_bold"
             android:text="@string/explorar_prueba_gratuita"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:cornerRadius="0dp"
             app:icon="@drawable/corona"
             app:iconGravity="textStart"
             app:iconPadding="10dp"
             app:iconSize="25dp"
             app:iconTint="@color/black"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            app:cornerRadius="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

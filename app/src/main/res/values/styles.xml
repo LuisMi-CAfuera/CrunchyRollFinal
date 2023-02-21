@@ -20,5 +20,11 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <style name="Navigation">
+         <item name="android:background">@color/grisnav</item>
+         <item name="itemIconTint">@color/login_button</item>
+         <item name="itemTextColor">@color/login_button</item>
+    </style>
+
 
 </resources>

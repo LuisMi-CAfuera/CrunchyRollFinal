@@ -157,7 +157,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/sin_anuncios"
-                app:drawableLeftCompat="@drawable/check"
+                app:drawableLeftCompat="@drawable/tick_amarillo"
                 tools:ignore="RtlHardcoded" />
 
             <TextView
@@ -168,7 +168,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/acceso_ilimitado_al_catalogo_de_crunchyroll"
-                app:drawableLeftCompat="@drawable/check"
+                app:drawableLeftCompat="@drawable/tick_amarillo"
                 tools:ignore="RtlHardcoded" />
 
             <TextView
@@ -179,7 +179,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/nuevos"
-                app:drawableLeftCompat="@drawable/check"
+                app:drawableLeftCompat="@drawable/tick_amarillo"
                 tools:ignore="RtlHardcoded" />
 
             <TextView
@@ -190,7 +190,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/uno"
-                app:drawableLeftCompat="@drawable/check"
+                app:drawableLeftCompat="@drawable/tick_amarillo"
                 tools:ignore="RtlHardcoded" />
 
             <TextView

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/primer_fragment_inicio"
+        android:icon="@drawable/inicio"
+        android:title="@string/inicio"/>
+    <item
+        android:id="@+id/segundo_fragment_litas"
+        android:icon="@drawable/lista"
+        android:title="@string/mis_listas"/>
+    <item
+        android:id="@+id/tercer_fragment_explorar"
+        android:icon="@drawable/explorador"
+        android:title="@string/explorar"/>
+
+    <item
+        android:id="@+id/cuarto_fragment_simulcast"
+        android:icon="@drawable/simulcast"
+        android:title="@string/simulcast"/>
+    <item
+        android:id="@+id/quinto_fragment_cuenta"
+        android:icon="@drawable/settings"
+        android:title="@string/cuenta"/>
+</menu>
