@@ -23,6 +23,7 @@ class login : AppCompatActivity() {
 
         binding.logo1.setImageResource(R.drawable.crunchyroll)
         binding.cruz1.setImageResource(R.drawable.cruz_balca)
+        binding.acceder.isEnabled = true
 
         //Funcion para logearse en firebase
         logearse()
@@ -61,16 +62,16 @@ class login : AppCompatActivity() {
                         binding.passwords.text.toString()
                     ).addOnCompleteListener {
                         if (it.isSuccessful) {
-                            showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
+                            pasar(it.result?.user?.email ?: "", ProviderType.BASIC)
                         }else{
-                            showAlert()
+                            alerta()
                         }
                     }
             }
         }
     }
 
-    private fun showAlert(){
+    private fun alerta(){
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Error")
         builder.setMessage("Se ha producido un error autenticando al usuario, o no tiene una cuenta")
@@ -79,8 +80,8 @@ class login : AppCompatActivity() {
         dialog.show()
     }
 
-    private fun showHome(email:String,provider: ProviderType){
-        val intent: Intent = Intent(this, primer_fragment_inicio::class.java).apply {
+    private fun pasar(email:String, provider: ProviderType){
+        val intent: Intent = Intent(this, Principal::class.java).apply {
             putExtra("email", email)
             putExtra("provider", provider.name)
         }

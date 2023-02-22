@@ -21,6 +21,9 @@ class registrar : AppCompatActivity() {
 
         binding.logo2.setImageResource(R.drawable.crunchyroll)
         binding.cruz2.setImageResource(R.drawable.cruz_balca)
+        binding.crearcuentaButton.isEnabled = true
+
+        registrar()
 
         binding.cruz2.setOnClickListener{
             val intent = Intent(this@registrar, MainActivity::class.java)
@@ -39,10 +42,10 @@ class registrar : AppCompatActivity() {
         )
         binding.yatienes.text = spannable
     }
-    private fun setup() {
-        title = "Login"
+    private fun registrar() {
+        title = "Registro"
 
-        binding.acceder.setOnClickListener {
+        binding.crearcuentaButton.setOnClickListener {
             if (binding.usuario.text.isNotEmpty() && binding.passwords.text.isNotEmpty()) {
 
                 FirebaseAuth.getInstance()
@@ -51,16 +54,16 @@ class registrar : AppCompatActivity() {
                         binding.passwords.text.toString()
                     ).addOnCompleteListener {
                         if (it.isSuccessful) {
-                            showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
+                            pasar(it.result?.user?.email ?: "", ProviderType.BASIC)
                         }else{
-                            showAlert()
+                            alerta()
                         }
                     }
             }
         }
     }
 
-    private fun showAlert(){
+    private fun alerta(){
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Error")
         builder.setMessage("Se ha producido un error autenticando al usuario")
@@ -69,8 +72,8 @@ class registrar : AppCompatActivity() {
         dialog.show()
     }
 
-    private fun showHome(email:String,provider: ProviderType){
-        val homeIntent: Intent = Intent(this, primer_fragment_inicio::class.java).apply {
+    private fun pasar(email:String, provider: ProviderType){
+        val homeIntent: Intent = Intent(this, Principal::class.java).apply {
             putExtra("email", email)
             putExtra("provider", provider.name)
         }
