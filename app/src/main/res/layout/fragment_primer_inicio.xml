@@ -95,7 +95,7 @@
                         app:layout_constraintVertical_bias="0.58" />
 
                     <TextView
-                        android:id="@+id/sinapsis"
+                        android:id="@+id/sinopsis"
                         android:layout_width="384dp"
                         android:layout_height="56dp"
                         android:fontFamily="@font/lato"
@@ -110,19 +110,165 @@
                         app:layout_constraintTop_toBottomOf="@+id/vinland"
                         app:layout_constraintVertical_bias="0.142" />
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/verahora"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Button"
+                        android:backgroundTint="@color/login_button"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="@string/ver_ahora"
+                        android:textColor="@color/black"
+                        app:cornerRadius="0dp"
+                        app:icon="@drawable/cruz3"
+                        app:iconGravity="textStart"
+                        app:iconPadding="10dp"
+                        app:iconSize="25dp"
+                        app:iconTint="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.05"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/sinapsis"
+                        app:layout_constraintTop_toBottomOf="@+id/sinopsis"
                         app:layout_constraintVertical_bias="0.29" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/anime1"
+                            android:background="@color/azulRaro"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="303dp">
+
+                            <ImageView
+                                android:id="@+id/unapieza"
+                                android:layout_width="165dp"
+                                android:layout_height="236dp"
+                                android:src="@drawable/unapieza"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="@string/one_piece"
+                                android:textColor="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/unapieza"
+                                app:layout_constraintVertical_bias="0.2" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/anime2"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@color/azulRaro"
+                            android:layout_width="match_parent"
+                            android:layout_height="303dp">
+
+                            <ImageView
+                                android:id="@+id/naruto"
+                                android:layout_width="165dp"
+                                android:layout_height="236dp"
+                                android:src="@drawable/naruto"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"/>
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="@string/naruto"
+                                android:textColor="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/naruto"
+                                app:layout_constraintVertical_bias="0.2" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/anime3"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@color/azulRaro"
+                            android:layout_width="match_parent"
+                            android:layout_height="303dp">
+
+                            <ImageView
+                                android:id="@+id/Hunter"
+                                android:layout_width="165dp"
+                                android:layout_height="236dp"
+                                android:src="@drawable/hunter"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"/>
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="@string/hunter_x_hunter"
+                                android:textColor="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/Hunter"
+                                app:layout_constraintVertical_bias="0.2" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/anime4"
+                            android:layout_marginHorizontal="10dp"
+                            android:background="@color/azulRaro"
+                            android:layout_width="match_parent"
+                            android:layout_height="303dp">
+
+                            <ImageView
+                                android:id="@+id/One"
+                                android:layout_width="165dp"
+                                android:layout_height="236dp"
+                                android:src="@drawable/onepunch"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0"/>
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/lato"
+                                android:text="@string/one_punch_man"
+                                android:textColor="@color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/One"
+                                app:layout_constraintVertical_bias="0.2" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
 
             </LinearLayout>
         </ScrollView>

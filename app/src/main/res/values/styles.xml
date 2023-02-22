@@ -26,5 +26,10 @@
          <item name="itemTextColor">@color/cambio</item>
     </style>
 
+    <style name="Constraint_Principal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:backgroundTint">@color/azulRaro</item>
+    </style>
 
 </resources>

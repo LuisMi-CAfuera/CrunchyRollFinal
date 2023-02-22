@@ -43,5 +43,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="vinland_saga">VINLAND SAGA</string>
     <string name="sinapsis">Cuando Thors, un gran guerrero vikingo muere asesinado en batalla a manos de Askeladd, un mercenario,su hijo,Thorfinn,jura vengarse.</string>
+    <string name="ver_ahora">Ver ahora</string>
+    <string name="one_piece">One piece</string>
+    <string name="hunter_x_hunter">Hunter x Hunter</string>
+    <string name="naruto">Naruto</string>
+    <string name="one_punch_man">One Punch Man</string>
+    <string name="nuevas_recomendaciones">NUEVAS RECOMENDACIONES</string>
 
 </resources>
