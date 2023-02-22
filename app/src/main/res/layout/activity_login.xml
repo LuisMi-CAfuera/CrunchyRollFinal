@@ -82,7 +82,7 @@
             app:layout_constraintVertical_bias="0.053" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/passwords"
             style="@style/EditText"
             android:layout_width="347dp"
             android:layout_height="57dp"
@@ -106,7 +106,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintTop_toBottomOf="@+id/passwords"
             app:layout_constraintVertical_bias="0.067" />
 
         <Button

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742425740662",
+    "project_id": "desarrollointerfaces-9eff6",
+    "storage_bucket": "desarrollointerfaces-9eff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742425740662:android:4c008cfd8ebadc60772657",
+        "android_client_info": {
+          "package_name": "com.example.crunchyrollfixed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742425740662-7fhg2nen767uctkcfjp33uip4597gg12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxQ57Xp05eiwicCzv6G_JZKkjGbsy7TOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742425740662-7fhg2nen767uctkcfjp33uip4597gg12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

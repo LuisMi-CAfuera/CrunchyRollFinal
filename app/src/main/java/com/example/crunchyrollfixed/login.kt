@@ -8,7 +8,9 @@ import android.os.Bundle
 import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
+import androidx.appcompat.app.AlertDialog
 import com.example.crunchyrollfixed.databinding.ActivityLoginBinding
+import com.google.firebase.auth.FirebaseAuth
 
 class login : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -21,10 +23,9 @@ class login : AppCompatActivity() {
 
         binding.logo1.setImageResource(R.drawable.crunchyroll)
         binding.cruz1.setImageResource(R.drawable.cruz_balca)
-        binding.acceder.setOnClickListener{
-            val intent = Intent(this@login, Principal::class.java)
-            startActivity(intent)
-        }
+
+        //Funcion para logearse en firebase
+        logearse()
 
         binding.cruz1.setOnClickListener{
             val intent = Intent(this@login, MainActivity::class.java)
@@ -48,5 +49,41 @@ class login : AppCompatActivity() {
         )
         binding.terminosYCondiciones.text = spannable
 
+    }
+    private fun logearse() {
+        title = "Login"
+        binding.acceder.setOnClickListener {
+            if (binding.usuario.text.isNotEmpty() && binding.passwords.text.isNotEmpty()) {
+
+                FirebaseAuth.getInstance()
+                    .signInWithEmailAndPassword(
+                        binding.usuario.text.toString(),
+                        binding.passwords.text.toString()
+                    ).addOnCompleteListener {
+                        if (it.isSuccessful) {
+                            showHome(it.result?.user?.email ?: "", ProviderType.BASIC)
+                        }else{
+                            showAlert()
+                        }
+                    }
+            }
+        }
+    }
+
+    private fun showAlert(){
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Error")
+        builder.setMessage("Se ha producido un error autenticando al usuario, o no tiene una cuenta")
+        builder.setPositiveButton("Aceptar", null)
+        val dialog: AlertDialog = builder.create()
+        dialog.show()
+    }
+
+    private fun showHome(email:String,provider: ProviderType){
+        val intent: Intent = Intent(this, primer_fragment_inicio::class.java).apply {
+            putExtra("email", email)
+            putExtra("provider", provider.name)
+        }
+        startActivity(intent)
     }
 }

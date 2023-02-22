@@ -81,7 +81,7 @@
             app:layout_constraintVertical_bias="0.053" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/passwords"
             style="@style/EditText"
             android:layout_width="347dp"
             android:layout_height="57dp"
@@ -106,7 +106,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintTop_toBottomOf="@+id/passwords"
             app:layout_constraintVertical_bias="0.414" />
 
         <Button
@@ -136,7 +136,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.253"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+            app:layout_constraintTop_toBottomOf="@+id/passwords"
             app:layout_constraintVertical_bias="0.466" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
