@@ -158,8 +158,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/sin_anuncios"
-                android:drawableLeft="@drawable/tick_amarillo"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/tick_amarillo" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -169,8 +169,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/acceso_ilimitado_al_catalogo_de_crunchyroll"
-                android:drawableLeft="@drawable/tick_amarillo"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/tick_amarillo" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -180,8 +180,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/nuevos"
-                android:drawableLeft="@drawable/tick_amarillo"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/tick_amarillo" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -191,8 +191,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="left"
                 android:text="@string/uno"
-                android:drawableLeft="@drawable/tick_amarillo"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/tick_amarillo" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -215,8 +215,8 @@
                 android:textColor="@color/gris"
                 android:gravity="left"
                 android:text="@string/mensual"
-                android:drawableLeft="@drawable/cruz3"
-                tools:ignore="RtlHardcoded" />
+                tools:ignore="RtlHardcoded"
+                app:drawableLeftCompat="@drawable/cruz3" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

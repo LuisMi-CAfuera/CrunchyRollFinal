@@ -34,7 +34,7 @@
     <string name="_6_49_mes">6,49/mes</string>
     <string name="_64_99_a_o">64,99/año</string>
     <string name="inicio">Inicio</string>
-    <string name="mis_listas">Mis Listas</string>
+    <string name="mis_listas">Mis listas</string>
     <string name="primero">Primero</string>
     <string name="explorar">Explorar</string>
     <string name="simulcast">Simulcast</string>
@@ -49,5 +49,11 @@
     <string name="naruto">Naruto</string>
     <string name="one_punch_man">One Punch Man</string>
     <string name="nuevas_recomendaciones">NUEVAS RECOMENDACIONES</string>
+    <string name="kimetsu_no_yaiba">Kimetsu no Yaiba</string>
+    <string name="shingeki_no_kyojin">Shingeki no Kyojin</string>
+    <string name="black_clover">Black Clover</string>
+    <string name="jujutsu_kaisen">Jujutsu Kaisen</string>
+    <string name="similar">SIMILAR A LO QUE ESTAS VIENDO</string>
+    <string name="actividad_reciente">Actividad Reciente</string>
 
 </resources>
