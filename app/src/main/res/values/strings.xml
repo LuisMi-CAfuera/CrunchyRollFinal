@@ -55,5 +55,7 @@
     <string name="jujutsu_kaisen">Jujutsu Kaisen</string>
     <string name="similar">SIMILAR A LO QUE ESTAS VIENDO</string>
     <string name="actividad_reciente">Actividad Reciente</string>
+    <string name="en_desarrollo">En Desarrollo</string>
+    <string name="temporada_de_simulcast">Temporada de simulcast</string>
 
 </resources>
